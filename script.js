@@ -1,6 +1,6 @@
 const canvas = document.getElementById('game-board');
 const context = canvas.getContext('2d');
-const holdCanvas = document.getElementById('hold-area');
+const holdCanvas = document.getElementById('hold-canvas');
 const holdContext = holdCanvas.getContext('2d');
 const scoreDisplay = document.getElementById('score');
 
